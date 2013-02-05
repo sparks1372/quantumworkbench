@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/119/trunk/Software/my_software/src/GUI/ProblemEditor
+END
+InnerEditorPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/118/trunk/Software/my_software/src/GUI/ProblemEditor/InnerEditorPanel.java
+END
+TestCaseEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/118/trunk/Software/my_software/src/GUI/ProblemEditor/TestCaseEditor.java
+END
+XMLFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/118/trunk/Software/my_software/src/GUI/ProblemEditor/XMLFilter.java
+END
+XMLEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/118/trunk/Software/my_software/src/GUI/ProblemEditor/XMLEditor.java
+END
+VisualProblemEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/118/trunk/Software/my_software/src/GUI/ProblemEditor/VisualProblemEditor.java
+END

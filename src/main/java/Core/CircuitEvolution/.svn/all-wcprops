@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/127/trunk/Software/my_software/src/Core/CircuitEvolution
+END
+circuitsearchengineInheritance.ucd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/59/trunk/Software/my_software/src/Core/CircuitEvolution/circuitsearchengineInheritance.ucd
+END
+SearchResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/59/trunk/Software/my_software/src/Core/CircuitEvolution/SearchResult.java
+END
+SearchEngineCore.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/111/trunk/Software/my_software/src/Core/CircuitEvolution/SearchEngineCore.java
+END
+EvolutionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/28/trunk/Software/my_software/src/Core/CircuitEvolution/EvolutionType.java
+END
+searchenginemanager.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/81/trunk/Software/my_software/src/Core/CircuitEvolution/searchenginemanager.java
+END
+SearchType.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/59/trunk/Software/my_software/src/Core/CircuitEvolution/SearchType.java
+END
+BatchSeachEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/59/trunk/Software/my_software/src/Core/CircuitEvolution/BatchSeachEngine.java
+END
+multiqubitquantumgate.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/42/trunk/Software/my_software/src/Core/CircuitEvolution/multiqubitquantumgate.java
+END
+SearchEngineState.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/42/trunk/Software/my_software/src/Core/CircuitEvolution/SearchEngineState.java
+END
+circuitsearchengine.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/111/trunk/Software/my_software/src/Core/CircuitEvolution/circuitsearchengine.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/109/trunk/Software/my_software/src/Core/CircuitEvaluator
+END
+SuitabilityMeasureManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/109/trunk/Software/my_software/src/Core/CircuitEvaluator/SuitabilityMeasureManager.java
+END
+Suitability.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/109/trunk/Software/my_software/src/Core/CircuitEvaluator/Suitability.java
+END
+SuitabilityMeasure.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/109/trunk/Software/my_software/src/Core/CircuitEvaluator/SuitabilityMeasure.java
+END
+FitnessFunctionInheritance.ucd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/28/trunk/Software/my_software/src/Core/CircuitEvaluator/FitnessFunctionInheritance.ucd
+END
+CircuitEvaluator.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/109/trunk/Software/my_software/src/Core/CircuitEvaluator/CircuitEvaluator.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/111/trunk/Software/my_software/src/Core/CircuitEvolution/QPace4/nonterminal
+END
+Control.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/111/trunk/Software/my_software/src/Core/CircuitEvolution/QPace4/nonterminal/Control.java
+END
+Gate.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/111/trunk/Software/my_software/src/Core/CircuitEvolution/QPace4/nonterminal/Gate.java
+END
+LoopVar.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/111/trunk/Software/my_software/src/Core/CircuitEvolution/QPace4/nonterminal/LoopVar.java
+END
+Iterate.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/111/trunk/Software/my_software/src/Core/CircuitEvolution/QPace4/nonterminal/Iterate.java
+END

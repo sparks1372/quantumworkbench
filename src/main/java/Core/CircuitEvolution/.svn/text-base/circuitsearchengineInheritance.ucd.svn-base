@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="circuitsearchengine" size="1282,691" id="Core.CircuitEvolution" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D31303030204D456E6752657365617263682050726F6A6563742F73616D">
+  <children xsi:type="editmodel:InterfaceEditModel" name="circuitsearchengine" location="50,50" size="245,189" id="Core.CircuitEvolution/circuitsearchengine">
+    <children xsi:type="editmodel:CompartmentEditModel" size="222,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="BestCircuit" id="Core.CircuitEvolution/circuitsearchengine#BestCircuit"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="Name" id="Core.CircuitEvolution/circuitsearchengine#Name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="availableinstructions" id="Core.CircuitEvolution/circuitsearchengine#availableinstructions"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cbuilder" id="Core.CircuitEvolution/circuitsearchengine#cbuilder"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cevaluator" id="Core.CircuitEvolution/circuitsearchengine#cevaluator"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="evotype" id="Core.CircuitEvolution/circuitsearchengine#evotype"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="66,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Evolve" id="Core.CircuitEvolution/circuitsearchengine#search([[Z)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" properties="open=Core.CircuitEvolution/circuitsearchengine;wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

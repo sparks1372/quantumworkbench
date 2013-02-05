@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/107/trunk/Software/my_software/src/Core/Circuit/GateImplementations
+END
+Zero_Gate.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/107/trunk/Software/my_software/src/Core/Circuit/GateImplementations/Zero_Gate.java
+END
+Phase_Gate.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/107/trunk/Software/my_software/src/Core/Circuit/GateImplementations/Phase_Gate.java
+END
+Pauli_X.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/107/trunk/Software/my_software/src/Core/Circuit/GateImplementations/Pauli_X.java
+END
+Hadamard_Gate.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/107/trunk/Software/my_software/src/Core/Circuit/GateImplementations/Hadamard_Gate.java
+END
+Pauli_Y.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/107/trunk/Software/my_software/src/Core/Circuit/GateImplementations/Pauli_Y.java
+END
+Pauli_Z.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/107/trunk/Software/my_software/src/Core/Circuit/GateImplementations/Pauli_Z.java
+END
+V_Gate.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/107/trunk/Software/my_software/src/Core/Circuit/GateImplementations/V_Gate.java
+END
+W_Gate.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/107/trunk/Software/my_software/src/Core/Circuit/GateImplementations/W_Gate.java
+END
+RX_Gate.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/107/trunk/Software/my_software/src/Core/Circuit/GateImplementations/RX_Gate.java
+END
+Custom_Gate.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/107/trunk/Software/my_software/src/Core/Circuit/GateImplementations/Custom_Gate.java
+END
+Swap_Gate.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/107/trunk/Software/my_software/src/Core/Circuit/GateImplementations/Swap_Gate.java
+END
+ControlledU_Gate.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/107/trunk/Software/my_software/src/Core/Circuit/GateImplementations/ControlledU_Gate.java
+END
+RY_Gate.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/107/trunk/Software/my_software/src/Core/Circuit/GateImplementations/RY_Gate.java
+END
+RZ_Gate.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/107/trunk/Software/my_software/src/Core/Circuit/GateImplementations/RZ_Gate.java
+END

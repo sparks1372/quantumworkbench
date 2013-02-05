@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<VBox prefWidth="200" alignment="center" spacing="10" xmlns:fx="http://javafx.com/fxml" fx:controller="info.samratcliff.ui.controller.ProblemController">
+	<children>
+		<Text id="header-text" fx:id="title" text="Problem Selector" />
+		<ComboBox fx:id="problemselectioncombo" />
+		<Text fx:id="problemselectiondescription" wrappingWidth="200" />
+		<Button fx:id="createproblem" text="Create Problem" onAction="#createProblemAction" />
+	</children>
+</VBox>

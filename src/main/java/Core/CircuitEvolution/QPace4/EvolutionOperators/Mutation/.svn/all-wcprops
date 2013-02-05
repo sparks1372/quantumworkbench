@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/111/trunk/Software/my_software/src/Core/CircuitEvolution/QPace4/EvolutionOperators/Mutation
+END
+InstructionReductionMutation.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/111/trunk/Software/my_software/src/Core/CircuitEvolution/QPace4/EvolutionOperators/Mutation/InstructionReductionMutation.java
+END
+InstructionReordering.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/111/trunk/Software/my_software/src/Core/CircuitEvolution/QPace4/EvolutionOperators/Mutation/InstructionReordering.java
+END
+InstructionMutation.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/111/trunk/Software/my_software/src/Core/CircuitEvolution/QPace4/EvolutionOperators/Mutation/InstructionMutation.java
+END
+ReplacementPipeline.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/111/trunk/Software/my_software/src/Core/CircuitEvolution/QPace4/EvolutionOperators/Mutation/ReplacementPipeline.java
+END
+QubitMutation.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/111/trunk/Software/my_software/src/Core/CircuitEvolution/QPace4/EvolutionOperators/Mutation/QubitMutation.java
+END
+InstructionDuplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/111/trunk/Software/my_software/src/Core/CircuitEvolution/QPace4/EvolutionOperators/Mutation/InstructionDuplication.java
+END

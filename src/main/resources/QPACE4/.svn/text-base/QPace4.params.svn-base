@@ -1,0 +1,183 @@
+parent.0 = koza.params
+
+state = Core.CircuitEvolution.QPace4.State.QPaceEvoState
+stat = Core.CircuitEvolution.QPace4.Stats.QPACE_stats
+pop.subpop.0.species.ind = Core.CircuitEvolution.QPace4.Individual.QPace_Ind
+
+pop.subpop.0.species.pipe.num-sources = 4
+
+pop.subpop.0.species.pipe.source.0.prob = 0.9
+pop.subpop.0.species.pipe.source.1.prob = 0.1
+pop.subpop.0.species.pipe.source.2.prob = 0.1
+pop.subpop.0.species.pipe.source.3.prob = 0.1
+
+pop.subpop.0.species.pipe.source.1 = Core.CircuitEvolution.QPace4.EvolutionOperators.Mutation.InstructionMutation
+pop.subpop.0.species.pipe.source.2 = Core.CircuitEvolution.QPace4.EvolutionOperators.Mutation.ReplacementPipeline
+pop.subpop.0.species.pipe.source.3 = Core.CircuitEvolution.QPace4.EvolutionOperators.Mutation.InstructionReordering
+pop.subpop.0.species.pipe.source.4 = Core.CircuitEvolution.QPace4.EvolutionOperators.Mutation.InstructionDulication
+pop.subpop.0.species.pipe.source.4= ec.gp.breed.MutateOneNodePipeline
+
+gp.breed.internal-xover.source.0 = ec.select.TournamentSelection
+gp.breed.internal-xover.ns.0 = ec.gp.koza.KozaNodeSelector
+gp.breed.internal-xover.ns.1= ec.gp.koza.KozaNodeSelector
+gp.breed.internal-xover.tries = 2
+gp.breed.internal-xover.maxdepth = 200
+
+pop.subpop.0.species.pipe.source.2.source.0.pick-worst=true
+
+gp.breed.instruction-reorder.source.0 = ec.select.TournamentSelection
+gp.breed.instruction-reorder.ns.0 = ec.gp.koza.KozaNodeSelector
+
+gp.breed.instruction-mutation.source.0 = ec.select.TournamentSelection
+gp.breed.instruction-mutation.ns.0 = ec.gp.koza.KozaNodeSelector
+
+gp.breed.instruction-duplication.source.0 = ec.select.TournamentSelection
+gp.breed.instruction-duplication.ns.0 = ec.gp.koza.KozaNodeSelector
+
+gp.breed.mutate-one-node.source.0 = ec.select.TournamentSelection
+gp.breed.mutate-one-node.ns.0 = ec.gp.koza.KozaNodeSelector
+
+#pop.subpop.0.species.pipe.generate-max = true
+
+#generations =				512
+quit-on-run-complete =			true
+#breed.elite.0 = 			1
+
+#select.tournament.size = 7
+#go.tc.0.init.max-depth = 20
+
+#pop.subpop.0.species.pipe.source.1.ns.terminals = 0.25
+#pop.subpop.0.species.pipe.source.1.ns.nonterminals = 0.5
+#pop.subpop.0.species.pipe.source.1.ns.root = 0.25
+
+#pop.subpop.0.species.pipe.source.3.ns.terminals = 1
+#pop.subpop.0.species.pipe.source.3.ns.nonterminals = 0
+#pop.subpop.0.species.pipe.source.3.ns.root = 0
+
+gp.koza.ns.terminals = 0.1
+gp.koza.ns.nonterminals = 0.75
+gp.koza.ns.root = 0.15
+
+#gp.koza.grow.min-depth = 2
+#gp.koza.grow.max-depth = 20
+
+gp.koza.mutate.tries = 2
+gp.koza.xover.tries = 2
+
+pop.subpop.0.size 		= 2048
+breedthreads	= 6
+evalthreads	= 6
+seed.0		= 100
+seed.1		= 20
+seed.2		= 300
+seed.3		= 40
+seed.4		= 500
+seed.5		= 60
+seed.6		= 700
+seed.7		= 80
+#seed.0		= time
+#seed.1		= time
+#seed.2		= time
+#seed.3		= time
+#seed.4		= time
+#seed.5		= time
+#seed.6		= time
+#seed.7		= time
+
+#Types
+#Atomic
+gp.type.a.size = 6
+gp.type.a.1.name = inst
+gp.type.a.2.name = int
+gp.type.a.3.name = double
+gp.type.a.4.name = quantum_algorithm
+gp.type.a.5.name = root
+
+#tree must return boolean
+gp.tc.0.returns = int
+
+gp.nc.size = 17
+
+#Terminal Node Constraints
+gp.nc.7 = ec.gp.GPNodeConstraints
+gp.nc.7.name = terminaldouble
+gp.nc.7.returns = double
+gp.nc.7.size = 0
+
+gp.nc.8 = ec.gp.GPNodeConstraints
+gp.nc.8.name = terminalint
+gp.nc.8.returns = int
+gp.nc.8.size = 0
+
+gp.nc.9 = ec.gp.GPNodeConstraints
+gp.nc.9.name = terminalinst
+gp.nc.9.returns = inst
+gp.nc.9.size = 0
+
+gp.nc.10 = ec.gp.GPNodeConstraints
+gp.nc.10.name = nonterminalroot
+gp.nc.10.returns = root
+gp.nc.10.size = 8
+gp.nc.10.child.0 = int
+gp.nc.10.child.1 = int
+gp.nc.10.child.2 = int
+gp.nc.10.child.3 = int
+gp.nc.10.child.4 = int
+gp.nc.10.child.5 = int
+gp.nc.10.child.6 = int
+gp.nc.10.child.7 = int
+
+gp.nc.11 = ec.gp.GPNodeConstraints
+gp.nc.11.name = nonterminalbody
+gp.nc.11.returns = int
+gp.nc.11.size = 8
+gp.nc.11.child.0 = int
+gp.nc.11.child.1 = int
+gp.nc.11.child.2 = int
+gp.nc.11.child.3 = int
+gp.nc.11.child.4 = int
+gp.nc.11.child.5 = int
+gp.nc.11.child.6 = int
+gp.nc.11.child.7 = int
+
+gp.nc.12 = ec.gp.GPNodeConstraints
+gp.nc.12.name = nonterminalgateanditeration
+gp.nc.12.returns = int
+gp.nc.12.size = 4
+gp.nc.12.child.0 = inst
+gp.nc.12.child.1 = int
+gp.nc.12.child.2 = int
+gp.nc.12.child.3 = double
+
+gp.nc.13 = ec.gp.GPNodeConstraints
+gp.nc.13.name = nonterminalarithmetici
+gp.nc.13.returns = int
+gp.nc.13.size = 2
+gp.nc.13.child.0 = int
+gp.nc.13.child.1 = int
+
+gp.nc.14 = ec.gp.GPNodeConstraints
+gp.nc.14.name = nonterminalarithmeticd
+gp.nc.14.returns = double
+gp.nc.14.size = 2
+gp.nc.14.child.0 = double
+gp.nc.14.child.1 = double
+
+gp.nc.15 = ec.gp.GPNodeConstraints
+gp.nc.15.name = nonterminalloopi
+gp.nc.15.returns = int
+gp.nc.15.size = 1
+gp.nc.15.child.0 = int
+
+gp.nc.16 = ec.gp.GPNodeConstraints
+gp.nc.16.name = nonterminalloopd
+gp.nc.16.returns = double
+gp.nc.16.size = 1
+gp.nc.16.child.0 = double
+
+eval.problem = Core.CircuitEvolution.QPace4.Problem.QPace_Problem
+eval.problem.data = Core.CircuitEvolution.QPace4.Data.QPaceData
+# The following should almost *always* be the same as eval.problem.data
+# For those who are interested, it defines the data object used internally
+# inside ADF stack contexts
+#eval.problem.stack.context.data = Core.CircuitEvolution.QPace4.Data.QPaceData

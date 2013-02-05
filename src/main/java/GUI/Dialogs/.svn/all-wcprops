@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/115/trunk/Software/my_software/src/GUI/Dialogs
+END
+LoadProblemPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/115/trunk/Software/my_software/src/GUI/Dialogs/LoadProblemPanel.java
+END
+CreateProblemPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/115/trunk/Software/my_software/src/GUI/Dialogs/CreateProblemPanel.java
+END
+EditProblemPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/115/trunk/Software/my_software/src/GUI/Dialogs/EditProblemPanel.java
+END
+StepByStepEvaluationDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/115/trunk/Software/my_software/src/GUI/Dialogs/StepByStepEvaluationDialog.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/112/trunk/Software/my_software/src/Core/Problem
+END
+testsuite.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/87/trunk/Software/my_software/src/Core/Problem/testsuite.java
+END
+Problem_Manager.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/112/trunk/Software/my_software/src/Core/Problem/Problem_Manager.java
+END
+Problem.ucd
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/112/trunk/Software/my_software/src/Core/Problem/Problem.ucd
+END
+quantumproblem.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/87/trunk/Software/my_software/src/Core/Problem/quantumproblem.java
+END
+testcase.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/112/trunk/Software/my_software/src/Core/Problem/testcase.java
+END
+testset.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/112/trunk/Software/my_software/src/Core/Problem/testset.java
+END

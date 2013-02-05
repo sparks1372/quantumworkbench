@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:controller="info.samratcliff.ui.controller.CustomGateQuantityController" stylesheets="login.css" xmlns:fx="http://javafx.com/fxml"
+	alignment="center" hgap="10" vgap="10">
+	<padding>
+		<Insets top="25" right="25" bottom="10" left="25" />
+	</padding>
+	<styleClass>
+		<String fx:value="modal-dialog" />
+	</styleClass>
+	<Text id="header-text" text="Please select the number of custom gates" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2" />
+	<ComboBox fx:id="customgatenumberlist" GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.columnSpan="2" />
+	<Button text="Okay" onAction="#okayAction" GridPane.columnIndex="0" GridPane.rowIndex="2" GridPane.halignment="center" />
+	<Button text="Cancel" onAction="#cancelAction" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.halignment="center" />
+</GridPane>

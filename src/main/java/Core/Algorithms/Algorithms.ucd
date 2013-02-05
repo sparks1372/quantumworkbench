@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="Algorithms" size="1211,693" id="Core.Algorithms" metadata="uml2-1.0" initialized="true" scrolledY="8" tag="1000" key="32303037303533312D31303030204D456E6752657365617263682050726F6A6563742F73616D">
+  <children xsi:type="editmodel:EnumerationEditModel" name="PhaseEnum" location="817,50" size="128,125" id="Core.Algorithms/PhaseEnum" runTimeClassModel="PiOverFour%,PiOverTwo%,One%,Pi%">
+    <children xsi:type="editmodel:CompartmentEditModel" size="77,72">
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="One" id="Core.Algorithms/PhaseEnum#One%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="PiOverTwo" id="Core.Algorithms/PhaseEnum#PiOverTwo%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="PiOverFour" id="Core.Algorithms/PhaseEnum#PiOverFour%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Pi" id="Core.Algorithms/PhaseEnum#Pi%"/>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:EnumerationEditModel" targetConnections="//@children.4/@sourceConnections.1 //@children.3/@sourceConnections.1" name="QuantumInstructionEnum" location="536,188" size="231,503" id="Core.Algorithms/QuantumInstructionEnum" runTimeClassModel="Create_CRY%,Create_W%,Create_CV%,Create_CX%,Create_RY%,Create_CZ%,RevIterate%,Create_P%,Create_Zero%,Create_Y%,Create_CRZ%,Create_V%,Create_Z%,Create_X%,Create_CRX%,Create_RZ%,Create_CW%,Create_CP%,Create_CY%,Body%,Iterate%,Create_RX%,Create_SWAP%,Create_CH%,Create_H%">
+    <children xsi:type="editmodel:CompartmentEditModel" size="90,450">
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Create_V" id="Core.Algorithms/QuantumInstructionEnum#Create_V%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Create_P" id="Core.Algorithms/QuantumInstructionEnum#Create_P%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="RevIterate" id="Core.Algorithms/QuantumInstructionEnum#RevIterate%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Create_Y" id="Core.Algorithms/QuantumInstructionEnum#Create_Y%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Create_RY" id="Core.Algorithms/QuantumInstructionEnum#Create_RY%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Create_CX" id="Core.Algorithms/QuantumInstructionEnum#Create_CX%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Create_CRZ" id="Core.Algorithms/QuantumInstructionEnum#Create_CRZ%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Create_Z" id="Core.Algorithms/QuantumInstructionEnum#Create_Z%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Create_RZ" id="Core.Algorithms/QuantumInstructionEnum#Create_RZ%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Body" id="Core.Algorithms/QuantumInstructionEnum#Body%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Create_CY" id="Core.Algorithms/QuantumInstructionEnum#Create_CY%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Create_CP" id="Core.Algorithms/QuantumInstructionEnum#Create_CP%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Create_CV" id="Core.Algorithms/QuantumInstructionEnum#Create_CV%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Create_CRX" id="Core.Algorithms/QuantumInstructionEnum#Create_CRX%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Create_CRY" id="Core.Algorithms/QuantumInstructionEnum#Create_CRY%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Create_CZ" id="Core.Algorithms/QuantumInstructionEnum#Create_CZ%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Create_SWAP" id="Core.Algorithms/QuantumInstructionEnum#Create_SWAP%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Create_CW" id="Core.Algorithms/QuantumInstructionEnum#Create_CW%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Create_Zero" id="Core.Algorithms/QuantumInstructionEnum#Create_Zero%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Iterate" id="Core.Algorithms/QuantumInstructionEnum#Iterate%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Create_RX" id="Core.Algorithms/QuantumInstructionEnum#Create_RX%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Create_X" id="Core.Algorithms/QuantumInstructionEnum#Create_X%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Create_CH" id="Core.Algorithms/QuantumInstructionEnum#Create_CH%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Create_H" id="Core.Algorithms/QuantumInstructionEnum#Create_H%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="Create_W" id="Core.Algorithms/QuantumInstructionEnum#Create_W%"/>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.3/@sourceConnections.0" name="exp_node" location="50,174" size="114,43" id="Core.Algorithms/exp_node" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" name="QuantumInstruction" location="289,312" size="190,43" id="Core.Algorithms/QuantumInstruction" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.Algorithms/QuantumInstruction-Soyatec::Import->Core.Algorithms/exp_node" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="114,33"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.Algorithms/QuantumInstruction-Soyatec::Import->Core.Algorithms/QuantumInstructionEnum" source="//@children.3" target="//@children.1" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="150,21" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,145"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.Algorithms/QuantumInstruction-Soyatec::Import->Core.Algorithms/QuantumAlgorithm" source="//@children.3" target="//@children.4" targetEnd="//@children.3/@sourceConnections.2/@children.2" label="//@children.3/@sourceConnections.2/@children.0" sourceEnd="//@children.3/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="98,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="90,43"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.3/@sourceConnections.2" name="QuantumAlgorithm" location="297,50" size="184,43" id="Core.Algorithms/QuantumAlgorithm" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.Algorithms/QuantumAlgorithm-Soyatec::Import->Core.Algorithms/exp_node" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="114,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.Algorithms/QuantumAlgorithm-Soyatec::Import->Core.Algorithms/QuantumInstructionEnum" source="//@children.4" target="//@children.1" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="174,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="-1" showScope="InPackage" properties="wireOptions=2;Product=eUML2;displayOptions=1"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+</editmodel:ClassDiagramEditModel>

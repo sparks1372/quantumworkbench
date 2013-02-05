@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="Problem" size="1211,1658" id="Core.Problem" metadata="uml2-1.0" initialized="true" scrolledY="45" tag="1000" key="32303037303533312D31303030204D456E6752657365617263682050726F6A6563742F73616D">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.1/@sourceConnections.1" name="testsuite" location="447,475" size="279,176" id="Core.Problem/testsuite" runTimeClassModel="getTestcases(I),getKeys(),removeTestSet(LCore.Problem.testset;),addTestcases(LCore.Problem.testset;),testsuite(),testsets,copy()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="256,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="testsets" id="Core.Problem/testsuite#testsets"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,108">
+      <children xsi:type="editmodel:MethodEditModel" name="addTestcases" id="Core.Problem/testsuite#addTestcases(LCore.Problem.testset;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="copy" id="Core.Problem/testsuite#copy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getKeys" id="Core.Problem/testsuite#getKeys()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTestcases" id="Core.Problem/testsuite#getTestcases(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeTestSet" id="Core.Problem/testsuite#removeTestSet(LCore.Problem.testset;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="testsuite" id="Core.Problem/testsuite#testsuite()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.Problem/testsuite->Standard::Call" source="//@children.0" target="//@children.5" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="75,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="43,176" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="145,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Problem_Manager" location="744,149" size="357,284" id="Core.Problem/Problem_Manager" runTimeClassModel="isSaved(),getProblemTag(Ljava.lang.String;),instatiatedproblems,availablesearchengines,saved,getSearchEngineDesc(Ljava.lang.String;),saveToFile(),addProblem(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),prob_file,getAvailableProblems(),Problem_Manager(Ljava.lang.String;),updateProblem(Ljava.lang.String;Ljava.lang.String;LCore.Problem.testsuite;Ljava.lang.String;),getProblem(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="334,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="availablesearchengines" id="Core.Problem/Problem_Manager#availablesearchengines"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="instatiatedproblems" id="Core.Problem/Problem_Manager#instatiatedproblems"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="prob_file" id="Core.Problem/Problem_Manager#prob_file"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="saved" id="Core.Problem/Problem_Manager#saved"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="151,162">
+      <children xsi:type="editmodel:MethodEditModel" name="Problem_Manager" id="Core.Problem/Problem_Manager#Problem_Manager(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addProblem" id="Core.Problem/Problem_Manager#addProblem(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAvailableProblems" id="Core.Problem/Problem_Manager#getAvailableProblems()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getProblem" id="Core.Problem/Problem_Manager#getProblem(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getProblemTag" id="Core.Problem/Problem_Manager#getProblemTag(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSearchEngineDesc" id="Core.Problem/Problem_Manager#getSearchEngineDesc(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isSaved" id="Core.Problem/Problem_Manager#isSaved()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="saveToFile" id="Core.Problem/Problem_Manager#saveToFile()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateProblem" id="Core.Problem/Problem_Manager#updateProblem(Ljava.lang.String;Ljava.lang.String;LCore.Problem.testsuite;Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.Problem/Problem_Manager->Standard::Call" source="//@children.1" target="//@children.4" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="75,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,27" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="172,126"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.Problem/Problem_Manager-Soyatec::Import->Core.Problem/testsuite" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,274" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="269,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0 //@children.5/@sourceConnections.0" name="testcase" location="466,1336" size="170,302" id="Core.Problem/testcase" runTimeClassModel="startingstate,setStartingstate(LJama.Matrix;),getStartingState(),finalstate,getLabel(),label,setFinalstate(LJama.Matrix;),id,testcase(ILjava.lang.String;),getId(),getStartingStateCopy(),getFinalstate(),getFinalStateCopy(),copy()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="finalstate" id="Core.Problem/testcase#finalstate"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="Core.Problem/testcase#id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="label" id="Core.Problem/testcase#label"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="startingstate" id="Core.Problem/testcase#startingstate"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="147,180">
+      <children xsi:type="editmodel:MethodEditModel" name="copy" id="Core.Problem/testcase#copy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFinalStateCopy" id="Core.Problem/testcase#getFinalStateCopy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFinalstate" id="Core.Problem/testcase#getFinalstate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getId" id="Core.Problem/testcase#getId()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLabel" id="Core.Problem/testcase#getLabel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStartingState" id="Core.Problem/testcase#getStartingState()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStartingStateCopy" id="Core.Problem/testcase#getStartingStateCopy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFinalstate" id="Core.Problem/testcase#setFinalstate(LJama.Matrix;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setStartingstate" id="Core.Problem/testcase#setStartingstate(LJama.Matrix;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="testcase" id="Core.Problem/testcase#testcase(ILjava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SuperPositionalTestSet" location="50,1240" size="217,104" id="Core.Problem/SuperPositionalTestSet" runTimeClassModel="getNum_of_qubits(),SuperPositionalTestSet(I),copy()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="155,54">
+      <children xsi:type="editmodel:MethodEditModel" name="SuperPositionalTestSet" id="Core.Problem/SuperPositionalTestSet#SuperPositionalTestSet(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="copy" id="Core.Problem/SuperPositionalTestSet#copy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNum_of_qubits" id="Core.Problem/SuperPositionalTestSet#getNum_of_qubits()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.Problem/SuperPositionalTestSet->Standard::Call" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="75,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="213,100" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,4"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.Problem/SuperPositionalTestSet->Standard::Derive" source="//@children.3" target="//@children.5" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive, Import, Instantiate»" size="155,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="207,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,256"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.1/@sourceConnections.0" name="quantumproblem" location="329,50" size="172,153" id="Core.Problem/quantumproblem" runTimeClassModel="getName(),getTestSuite(),name,setTestSuite(LCore.Problem.testsuite;),testset">
+    <children xsi:type="editmodel:CompartmentEditModel" size="112,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="Core.Problem/quantumproblem#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="testset" id="Core.Problem/quantumproblem#testset"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="98,54">
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="Core.Problem/quantumproblem#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTestSuite" id="Core.Problem/quantumproblem#getTestSuite()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTestSuite" id="Core.Problem/quantumproblem#setTestSuite(LCore.Problem.testsuite;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.Problem/quantumproblem-Soyatec::Import->Core.Problem/testsuite" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="144,153" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="26,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.1 //@children.0/@sourceConnections.0" name="testset" location="345,912" size="190,266" id="Core.Problem/testset" runTimeClassModel="num_of_qubits,getTestcases(),getCustomGate(I),testcases,getNumberOfTestcases(),customgates,getNum_of_qubits(),testset(I),getCustomGateSize(I),addTestcases(LCore.Problem.testcase;),setCustomGate(ILJama.Matrix;),copy()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="167,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="customgates" id="Core.Problem/testset#customgates"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="num_of_qubits" id="Core.Problem/testset#num_of_qubits"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="testcases" id="Core.Problem/testset#testcases"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="157,162">
+      <children xsi:type="editmodel:MethodEditModel" name="addTestcases" id="Core.Problem/testset#addTestcases(LCore.Problem.testcase;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="copy" id="Core.Problem/testset#copy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCustomGate" id="Core.Problem/testset#getCustomGate(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCustomGateSize" id="Core.Problem/testset#getCustomGateSize(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNum_of_qubits" id="Core.Problem/testset#getNum_of_qubits()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNumberOfTestcases" id="Core.Problem/testset#getNumberOfTestcases()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTestcases" id="Core.Problem/testset#getTestcases()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCustomGate" id="Core.Problem/testset#setCustomGate(ILJama.Matrix;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="testset" id="Core.Problem/testset#testset(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.Problem/testset->Standard::Call" source="//@children.5" target="//@children.2" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="75,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="155,266" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="34,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="-1" showScope="InPackage" properties="wireOptions=2;Product=eUML2;displayOptions=1"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+</editmodel:ClassDiagramEditModel>

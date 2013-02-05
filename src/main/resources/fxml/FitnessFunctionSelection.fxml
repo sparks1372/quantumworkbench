@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<VBox prefWidth="200" alignment="center" spacing="10" xmlns:fx="http://javafx.com/fxml" fx:controller="info.samratcliff.ui.controller.FitnessFunctionController">
+	<children>
+		<Text id="header-text" fx:id="title" text="Fitness Function Selector" />
+		<ComboBox prefWidth="200" fx:id="fitnessfunctionselectioncombo" />
+		<Text fx:id="fitnessfunctionselectiondescription" wrappingWidth="200" />
+	</children>
+</VBox>

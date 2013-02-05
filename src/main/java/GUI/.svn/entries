@@ -1,0 +1,123 @@
+10
+
+dir
+139
+http://mengquantumalgorithm.googlecode.com/svn/trunk/Software/my_software/src/GUI
+http://mengquantumalgorithm.googlecode.com/svn
+
+
+
+2011-07-18T14:55:10.808530Z
+138
+sam.ratcliff@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+f7df9462-281d-0e4b-85b5-66809da897f8
+
+Dialogs
+dir
+
+MainPanel.java
+file
+
+
+
+
+2012-08-04T20:25:55.354371Z
+93fcf84fddcec2e029df90df80db507b
+2011-05-09T12:50:38.350284Z
+128
+sam.ratcliff@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2280
+
+ProblemEditor
+dir
+
+StateVisualiser
+dir
+
+GateEditor
+dir
+
+qcevolutionfrontend.java
+file
+
+
+
+
+2012-08-04T20:25:55.354371Z
+24750102a2b5d5107cecd108a25c323e
+2011-07-18T14:55:10.808530Z
+138
+sam.ratcliff@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4508
+
+CircuitVisualiser
+dir
+
+CircuitEditor
+dir
+
+CustomButtons
+dir
+
+CircuitEvaluation
+dir
+
+SubPanels
+dir
+
