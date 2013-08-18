@@ -40,7 +40,7 @@ public class QPace4_JPPF extends QPace4_Imp {
 
 			// give this job a readable unique id that we can use to monitor and
 			// manage it.
-			job.setId("QPaceSearch");
+			job.setName("QPaceSearch");
 			final QPaceSearchCore[] task_array = new QPaceSearchCore[iterval];
 
 			for (int i = 0; i < iterval; i++) {

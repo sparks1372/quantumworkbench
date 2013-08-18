@@ -1,16 +1,16 @@
 package info.samratcliff.ui.controller;
 
-import java.io.IOException;
-
 import javafx.event.ActionEvent;
+
+import java.io.IOException;
 
 public interface CreateProblemController {
 
-	public void chooseFileAction(ActionEvent event) throws IOException;
+    public void chooseFileAction(ActionEvent event) throws IOException;
 
-	public void okayAction(ActionEvent event) throws IOException;
+    public void okayAction(ActionEvent event) throws IOException;
 
-	public void cancelAction(ActionEvent event);
+    public void cancelAction(ActionEvent event);
 
-	public void addTestSet(ActionEvent event);
+    public void addTestSet(ActionEvent event);
 }

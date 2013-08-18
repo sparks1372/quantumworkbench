@@ -38,23 +38,23 @@
 		</dependency>
 		<dependency>
 			<groupId>org.jppf</groupId>
-			<artifactId>common</artifactId>
-			<version>3.1.1</version>
+			<artifactId>jppf-common</artifactId>
+			<version>3.3.5</version>
 		</dependency>
 		<dependency>
 			<groupId>org.jppf</groupId>
-			<artifactId>common-node</artifactId>
-			<version>3.1.1</version>
+			<artifactId>jppf-common-node</artifactId>
+			<version>3.3.5</version>
 		</dependency>
 		<dependency>
 			<groupId>org.jppf</groupId>
-			<artifactId>server</artifactId>
-			<version>3.1.1</version>
+			<artifactId>jppf-server</artifactId>
+			<version>3.3.5</version>
 		</dependency>
 		<dependency>
 			<groupId>org.jppf</groupId>
-			<artifactId>client</artifactId>
-			<version>3.1.1</version>
+			<artifactId>jppf-client</artifactId>
+			<version>3.3.5</version>
 		</dependency>
 		<dependency>
 			<!-- a dependency of JPPF, which is locally managed -->
@@ -83,14 +83,10 @@
 			<artifactId>guava</artifactId>
 			<version>r09</version>
 		</dependency>
-		<dependency>
-			<groupId>com.oracle</groupId>
-			<artifactId>javafx</artifactId>
-			<version>2.0</version>
-			<scope>system</scope>
-			<systemPath>/usr/lib/jvm/jdk1.7.0_09/jre/lib/jfxrt.jar</systemPath>
-		</dependency>
-
-
+        <dependency>
+            <groupId>org.jfxtras</groupId>
+            <artifactId>jfxtras-labs</artifactId>
+            <version>2.2-r5</version>
+        </dependency>
 	</dependencies>
 </project>

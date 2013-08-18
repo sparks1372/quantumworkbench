@@ -1,13 +1,14 @@
 package info.samratcliff.ui.controller;
-import java.io.IOException;
 
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 
+import java.io.IOException;
+
 public interface CustomGateQuantityController {
-	public ObservableList<Integer> getQuantites();
+    public ObservableList<Integer> getQuantites();
 
-	public void okayAction(ActionEvent event) throws IOException;
+    public void okayAction(ActionEvent event) throws IOException;
 
-	public void cancelAction(ActionEvent event);
+    public void cancelAction(ActionEvent event);
 }

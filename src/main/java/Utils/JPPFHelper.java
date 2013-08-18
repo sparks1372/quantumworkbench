@@ -28,7 +28,7 @@ public class JPPFHelper {
 
 			// give this job a readable unique id that we can use to monitor and
 			// manage it.
-			job.setId("Template Job Id");
+			job.setName("Template Job Id");
 
 			for (int i = 0; i < iterations; i++) {
 				// add a task to the job.
