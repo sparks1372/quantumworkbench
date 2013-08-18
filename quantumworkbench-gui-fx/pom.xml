@@ -9,12 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>quantumworkbench-sever</artifactId>
+    <artifactId>quantumworkbench-gui-fx</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>info.samratcliff</groupId>
-            <artifactId>quantumworkbench-utils</artifactId>
+            <artifactId>quantumworkbench-sever</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

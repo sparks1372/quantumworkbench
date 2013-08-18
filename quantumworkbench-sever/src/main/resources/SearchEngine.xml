@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchengine xmlns="http://www.w3schools.com"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://www.w3schools.com searchengine_spec.xsd">
+    <se>
+        <Name>Genetic Programming - QPace Local</Name>
+        <Class>info.samratcliff.core.CircuitEvolution.QPace4.QPace4_Local</Class>
+        <Desc>gp_qp4_desc.txt</Desc>
+    </se>
+    <se>
+        <Name>Genetic Programming - QPace JPPF</Name>
+        <Class>info.samratcliff.core.CircuitEvolution.QPace4.QPace4_JPPF</Class>
+        <Desc>gp_qp4_desc.txt</Desc>
+    </se>
+</searchengine>
+

@@ -1,0 +1,3222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite NumCustomGates="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="testset_xml_spec.xsd">
+    <testset NumQubits="4">
+        <testcase><!--Test Case 0-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 1-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 2-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 3-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 4-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 5-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 6-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 7-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 8-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 9-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 10-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 11-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 12-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 13-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 14-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 15-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 16-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 17-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 18-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 19-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 20-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 21-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 22-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+        <testcase><!--Test Case 23-->
+            <starting_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.5</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </starting_state>
+            <final_state>
+                <matrix_element><!-- 0000-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0001-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0010-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0011-->
+                    <Real>0.741619849</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 0111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1000-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1001-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1010-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1011-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1100-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1101-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1110-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+                <matrix_element><!-- 1111-->
+                    <Real>0.0</Real>
+                    <Imag>0.0</Imag>
+                </matrix_element>
+            </final_state>
+        </testcase>
+    </testset>
+</testsuite>

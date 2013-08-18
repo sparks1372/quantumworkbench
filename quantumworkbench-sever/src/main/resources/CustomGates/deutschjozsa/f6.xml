@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Matrix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="testset_xml_spec.xsd"
+        NumQubits="3">
+    <MatrixElement Row="0" Column="0">
+        <Real>1.0</Real>
+        <Imag>0.0</Imag>
+    </MatrixElement>
+    <MatrixElement Row="1" Column="5">
+        <Real>1.0</Real>
+        <Imag>0.0</Imag>
+    </MatrixElement>
+    <MatrixElement Row="2" Column="6">
+        <Real>1.0</Real>
+        <Imag>0.0</Imag>
+    </MatrixElement>
+    <MatrixElement Row="3" Column="3">
+        <Real>1.0</Real>
+        <Imag>0.0</Imag>
+    </MatrixElement>
+    <MatrixElement Row="4" Column="4">
+        <Real>1.0</Real>
+        <Imag>0.0</Imag>
+    </MatrixElement>
+    <MatrixElement Row="5" Column="1">
+        <Real>1.0</Real>
+        <Imag>0.0</Imag>
+    </MatrixElement>
+    <MatrixElement Row="6" Column="2">
+        <Real>1.0</Real>
+        <Imag>0.0</Imag>
+    </MatrixElement>
+    <MatrixElement Row="7" Column="7">
+        <Real>1.0</Real>
+        <Imag>0.0</Imag>
+    </MatrixElement>
+</Matrix>

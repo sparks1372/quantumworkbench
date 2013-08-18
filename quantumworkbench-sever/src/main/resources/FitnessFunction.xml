@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FitnessFunc xmlns="http://www.w3schools.com"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.w3schools.com fitnessfunction_spec.xsd">
+    <FitnessFunctionTag>
+        <Name>Simple Suitability</Name>
+        <Class>info.samratcliff.core.CircuitEvaluator.SimpleFitness.SimpleFitness</Class>
+        <Desc>A simple and naive fitness function</Desc>
+    </FitnessFunctionTag>
+    <FitnessFunctionTag>
+        <Name>Simple Suitability - Non Zero Count</Name>
+        <Class>info.samratcliff.core.CircuitEvaluator.SimpleNonZeroFitness.SimpleNonZeroFitness</Class>
+        <Desc>A simple and naive fitness function, hits are only counted on non-zero elements.</Desc>
+    </FitnessFunctionTag>
+    <FitnessFunctionTag>
+        <Name>Simple Suitability - Zero Focused</Name>
+        <Class>info.samratcliff.core.CircuitEvaluator.SimpleZeroFocusFitness.SimpleZeroFocusFitness</Class>
+        <Desc>A simple and naive fitness function, only focusing on minimising expected 0 values.</Desc>
+    </FitnessFunctionTag>
+    <FitnessFunctionTag>
+        <Name>Phase Sensitive Suitability</Name>
+        <Class>
+            info.samratcliff.core.CircuitEvaluator.PhaseSensitiveParsimoniousSimpleFitness.PhaseSensitiveParsimoniousSimpleFitness
+        </Class>
+        <Desc>A simple and naive fitness function that includes pressure to reduce the size of algorithms and circuits
+            produced that is sensitive to incorrect phases
+        </Desc>
+    </FitnessFunctionTag>
+    <FitnessFunctionTag>
+        <Name>Phase Sensitive Suitability - Polar Scaled by 2</Name>
+        <Class>info.samratcliff.core.CircuitEvaluator.PhaseSensitivePolarFitness.PhaseSensitivePolarFitness2</Class>
+        <Desc>Fitness function that is is phase sensitive but uses scaling factor, 2, to prioritise the magnitude over
+            the phase.
+        </Desc>
+    </FitnessFunctionTag>
+    <FitnessFunctionTag>
+        <Name>Phase Sensitive Suitability - Polar Scaled by 3</Name>
+        <Class>info.samratcliff.core.CircuitEvaluator.PhaseSensitivePolarFitness.PhaseSensitivePolarFitness3</Class>
+        <Desc>Fitness function that is is phase sensitive but uses scaling factor, 3, to prioritise the magnitude over
+            the phase.
+        </Desc>
+    </FitnessFunctionTag>
+    <FitnessFunctionTag>
+        <Name>Phase Sensitive Suitability - Polar Scaled by 4</Name>
+        <Class>info.samratcliff.core.CircuitEvaluator.PhaseSensitivePolarFitness.PhaseSensitivePolarFitness4</Class>
+        <Desc>Fitness function that is is phase sensitive but uses scaling factor, 4, to prioritise the magnitude over
+            the phase.
+        </Desc>
+    </FitnessFunctionTag>
+    <FitnessFunctionTag>
+        <Name>Phase Sensitive Suitability - Polar Scaled by 5</Name>
+        <Class>info.samratcliff.core.CircuitEvaluator.PhaseSensitivePolarFitness.PhaseSensitivePolarFitness5</Class>
+        <Desc>Fitness function that is is phase sensitive but uses scaling factor, 5, to prioritise the magnitude over
+            the phase.
+        </Desc>
+    </FitnessFunctionTag>
+    <FitnessFunctionTag>
+        <Name>Phase Sensitive Suitability - Non Zero Count</Name>
+        <Class>info.samratcliff.core.CircuitEvaluator.PhaseSensitiveFitnessNonZero.PhaseSensitiveFitnessNonZero</Class>
+        <Desc>A simple and naive fitness function that is sensitive to incorrect phases and only counts "hits" on non
+            zero elements
+        </Desc>
+    </FitnessFunctionTag>
+    <FitnessFunctionTag>
+        <Name>Phase Sensitive Suitability - Zero Focused</Name>
+        <Class>info.samratcliff.core.CircuitEvaluator.PhaseSensitiveFitnessNonZero.PhaseSensitiveFitnessZeroFocused
+        </Class>
+        <Desc>A phase aware fitness function, only focusing on minimising expected 0 values.</Desc>
+    </FitnessFunctionTag>
+    <FitnessFunctionTag>
+        <Name>Phase Sensitive Suitability - No Count</Name>
+        <Class>info.samratcliff.core.CircuitEvaluator.PhaseSensitiveFitnessNonZero.PhaseSensitiveFitnessNoHits</Class>
+        <Desc>A simple and naive fitness function that is sensitive to incorrect phases and with no "hit" count</Desc>
+    </FitnessFunctionTag>
+</FitnessFunc>
+

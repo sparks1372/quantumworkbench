@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<?import java.lang.String?>
+<GridPane fx:controller="info.samratcliff.ui.controller.CreateProblemController" stylesheets="login.css"
+          xmlns:fx="http://javafx.com/fxml" alignment="center"
+          hgap="10" vgap="10">
+    <padding>
+        <Insets top="25" right="25" bottom="10" left="25"/>
+    </padding>
+    <styleClass>
+        <String fx:value="modal-dialog"/>
+    </styleClass>
+    <Text id="header-text" text="Create Problem and Test Suite" GridPane.columnIndex="0" GridPane.rowIndex="0"
+          GridPane.columnSpan="2"/>
+    <Label text="Problem Name" prefWidth="150" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    <TextField fx:id="problemname" prefWidth="150" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    <Button text="Select Destination File" onAction="#chooseFileAction" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+    <TextField fx:id="destinationfile" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    <Button text="Add Test Set" onAction="#addTestSet" GridPane.columnIndex="0" GridPane.rowIndex="3"
+            GridPane.halignment="center"/>
+    <Button text="Delete Current Test Set" GridPane.columnIndex="0" GridPane.rowIndex="4" GridPane.halignment="center"/>
+    <Text id="destinationfile2" GridPane.columnIndex="1" GridPane.rowIndex="3" GridPane.rowSpan="2"/>
+    <TextArea fx:id="problemdescription" GridPane.columnIndex="0" GridPane.rowIndex="5" GridPane.columnSpan="2"/>
+    <Button text="Okay" onAction="#okayAction" GridPane.columnIndex="0" GridPane.rowIndex="6"
+            GridPane.halignment="center"/>
+    <Button text="Cancel" onAction="#cancelAction" GridPane.columnIndex="1" GridPane.rowIndex="6"
+            GridPane.halignment="center"/>
+</GridPane>
