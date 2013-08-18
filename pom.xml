@@ -3,7 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>info.samratcliff</groupId>
     <artifactId>quantworkbench</artifactId>
+    <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>quantumworkbench-sever</module>
+    </modules>
 
     <dependencies>
         <dependency>
